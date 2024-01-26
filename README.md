@@ -10,8 +10,8 @@ Dimensionality reduction and classification are two key steps in machine learnin
   - **Curse of Dimensionality:** High-dimensional data can lead to increased computational complexity, sparsity, and overfitting.
   - **Visualization:** Facilitate visual exploration of data in lower-dimensional spaces.
 - **Methods:**
-  - **Unsupervised Techniques:** PCA, t-SNE, UMAP, LLE.
-  - **Supervised Techniques:** Supervised UMAP, Linear Discriminant Analysis (LDA).
+  - **Unsupervised Techniques:** PCA, KPCA, LLE, UMAP.
+  - **Supervised Techniques:** Supervised UMAP.
 
 ### Classification:
 
@@ -21,8 +21,7 @@ Dimensionality reduction and classification are two key steps in machine learnin
   - **Prediction:** Predict the class of new, unseen instances.
   - **Decision Making:** Inform decision-making based on learned patterns.
 - **Algorithms:**
-  - **Decision Trees, Random Forest, Support Vector Machines, Neural Networks, K-Nearest Neighbors, etc.**
-  - **Various classifiers suitable for different data distributions and complexities.**
+  - **Decision Trees
 
 ### Integration of Dimensionality Reduction and Classification:
 
@@ -37,8 +36,8 @@ Dimensionality reduction and classification are two key steps in machine learnin
 
 2. **Dimensionality Reduction:**
    - Choose an appropriate method based on the nature of the data and the task.
-   - **Unsupervised:** PCA, t-SNE, UMAP, LLE.
-   - **Supervised:** Supervised UMAP, LDA.
+   - **Unsupervised:** PCA, KPCA, LLE, UMAP.
+   - **Supervised:** Supervised UMAP.
 
 3. **Classification:**
    - Choose a classification algorithm based on the problem and data characteristics.
@@ -51,7 +50,6 @@ Dimensionality reduction and classification are two key steps in machine learnin
 - **Better Generalization:** Reduced risk of overfitting and improved generalization to new data.
 
 **Considerations:**
-- **Hyperparameter Tuning:** Optimize hyperparameters for both dimensionality reduction and classification.
 - **Interpretability:** Balance the need for interpretability with model complexity.
 
 In summary, dimensionality reduction and classification are intertwined in machine learning pipelines, working together to address challenges associated with high-dimensional data and improve the efficiency and effectiveness of classification models. The choice of methods depends on the specific characteristics of the data and the goals of the classification task.
